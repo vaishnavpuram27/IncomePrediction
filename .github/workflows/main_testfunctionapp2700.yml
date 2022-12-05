@@ -65,6 +65,6 @@ jobs:
           app-name: 'TestFunctionApp2700'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3A784D9DF22743A78F6C7F00943E0E30 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B92EE4BE9F3945F99512D93E01A1FCD7 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
